@@ -1,0 +1,21 @@
+
+#连接池配置
+spring:
+  datasource:
+    password: 123456
+    username: root
+    url: jdbc:mysql:///webdb4
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    # 模板模式：HTML5
+    mode: HTML
+    # 编码
+    encoding: UTF-8
+    # 内容类型值
+    content-type: text/html
+    # 是否启用缓存
+    cache: false
+    # 前缀
+    prefix: classpath:/static/
+    # 后缀
+    suffix: .html

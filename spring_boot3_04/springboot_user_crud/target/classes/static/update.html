@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/update" method="post">
+  <label>用户编号</label>
+  <input type="text"name="userId" th:value="${users.userId}"><br>
+  <label>用户名</label>
+  <input type="text"name="userName" th:value="${users.userName}"><br>
+  <label>密码</label>
+  <input type="password"name="userPassword" th:value="${users.userPassword}"><br>
+  <label>选择身份</label>
+  <input type="radio" name="type" value="1">管理员
+  <input type="radio" checked="checked" value="0">用户
+  <br>
+  <label>余额</label>
+  <input type="text"name="money" th:value="${users.money}"><br>
+  <input type="submit" value="修改">
+</form>
+</body>
+</html>

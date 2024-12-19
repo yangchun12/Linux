@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_boot_druid" />
+        <module name="springboot3_boot_mybatis_pls" />
+        <module name="springboot_user_crud" />
+        <module name="spring_boot3_mybatis" />
+        <module name="springboot_mybatis_puls_service" />
+        <module name="springboot_mybatis_plus_page" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot3_thymeleaf" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring_boot3_mybatis" options="-parameters" />
+      <module name="spring_boot_druid" options="-parameters" />
+      <module name="springboot3_boot_mybatis_pls" options="-parameters" />
+      <module name="springboot3_thymeleaf" options="-parameters" />
+      <module name="springboot_mybatis_plus_page" options="-parameters" />
+      <module name="springboot_mybatis_puls_service" options="-parameters" />
+      <module name="springboot_user_crud" options="-parameters" />
+    </option>
+  </component>
+</project>

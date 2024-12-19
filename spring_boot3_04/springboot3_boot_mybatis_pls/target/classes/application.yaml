@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    password: 123456
+    username: root
+    url: jdbc:mysql:///webdb4
+    driver-class-name: com.mysql.cj.jdbc.Driver

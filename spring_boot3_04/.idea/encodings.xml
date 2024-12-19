@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring_boot3_mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot3_mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot_druid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot_druid/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3_boot_mybatis_pls/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot3_thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_mybatis_plus_page/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_mybatis_puls_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_user_crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../mavenRepository/org/springframework/boot/spring-boot-starter-parent/3.0.5/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
